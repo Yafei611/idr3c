@@ -1,0 +1,17 @@
+Package: idr3c
+Title: Differential gene expression analysis by integrating data from multiple sources
+Version: 0.99.0
+Authors@R: c(person("Yafei", "Lyu", role = c("aut", "cre"),email = "yul199@psu.edu"),
+	      person("Qunhua", "Li", role = "aut",email = "yul199@psu.edu"))
+Maintainer@R: person("Yafei", "Lyu", email = "yul199@psu.edu")
+Description: Mapping expression data from different labs/platforms onto a 3 components Gaussian mixture and determine differential expressed genes using model based cluster.
+Imports:
+    mvtnorm, stats
+Depends:
+    R (>= 3.3) 
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Suggests: R.rsp
+VignetteBuilder: R.rsp
