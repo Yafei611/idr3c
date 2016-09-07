@@ -2,11 +2,11 @@
 ### get pseudo data
 get.pseudo.mix.multi <- function(x, para) {
   
-  n.dim=2
-  n.cluster=3
-  nw=1000
-  m_sd=3
-  n.sample=nrow(x)
+  n.dim <- 2
+  n.cluster <- 3
+  nw <- 1000
+  m_sd <- 3
+  n.sample <- nrow(x)
   
   quan.x <- matrix(0, nrow=n.sample, ncol=n.dim)
   
